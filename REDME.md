@@ -165,7 +165,7 @@ GET /prices?country=IN&query=Borosil Nutrifresh PB31
 
 ---
 
-## 📊 Future Improvements (Planned by AniketVS)
+## 📊 Future Improvements (Planned by Aniket)
 
 | Area                          | Description                                                               |
 | ----------------------------- | ------------------------------------------------------------------------- |
