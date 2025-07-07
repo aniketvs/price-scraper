@@ -177,7 +177,7 @@ GET http://localhost:4002/prices?country=IN&query=Borosil Nutrifresh PB31
 ```bash
 curl --location 'https://price-scraper-ny7v.onrender.com/prices?country=IN&query=boAt%20Airdopes%20311%20Pro'
 
-
+```
 ---
 
 ## 📊 Future Improvements (Planned by Aniket)
