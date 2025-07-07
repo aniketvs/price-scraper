@@ -197,6 +197,9 @@ curl --location 'https://price-scraper-ny7v.onrender.com/prices?country=IN&query
 
 ---
 
+![Demo](assets/demo.gif)
+
+---
 ## 👨‍💻 Author
 
 Made with ❤️ by **AniketVS**
