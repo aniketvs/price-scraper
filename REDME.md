@@ -142,7 +142,7 @@ docker logs -f price-scraper-app
 ### Endpoint
 
 ```
-GET /prices?country=IN&query=Borosil Nutrifresh PB31
+GET http://localhost:4002/prices?country=IN&query=Borosil Nutrifresh PB31
 ```
 
 ### Sample Output
@@ -162,6 +162,21 @@ GET /prices?country=IN&query=Borosil Nutrifresh PB31
   ]
 }
 ```
+
+---
+
+
+## 🌍 Live API Endpoint (Render)
+
+> 🔄 **Hosted on Render (Free Instance)**  
+> ⚠️ Scraping may be **slower** due to resource limits.  
+> 💡 For best performance, run **locally** with Playwright and headless Chromium.
+
+### 🔍 Sample Request
+
+```bash
+curl --location 'https://price-scraper-ny7v.onrender.com/prices?country=IN&query=boAt%20Airdopes%20311%20Pro'
+
 
 ---
 
