@@ -1,0 +1,23 @@
+IN:
+  - id: "amazon_in"
+    searchUrl: "https://www.amazon.in/s?k={query}"
+    selectors:
+       item: "div.s-result-item[data-asin]:not([data-asin=''])"
+       title: "h2 span"
+       price: "span.a-price > span.a-offscreen"
+       link: "a.a-link-normal.s-no-outline"
+  - id: "flipkart"
+    searchUrl: "https://www.flipkart.com/search?q={query}"
+    selectors:
+      item: "div.slAVV4"  
+      title: "a.wjcEIp"
+      price: "div.Nx9bqj"
+      link: "a.VJA3rP"
+  - id: "myborosil_com"
+    searchUrl: "https://myborosil.com/search?q={query}"
+    selectors:
+      item: "li.grid__item"
+      title: ".card__heading a"
+      price: ".price__sale .price-item--sale"
+      link: ".card__heading a"
+
